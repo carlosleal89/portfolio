@@ -1,0 +1,122 @@
+@use './variables'
+@use './mixins'
+
+// Media Query para 320x480
+@media screen and (max-width: 320px)
+  #portfolio
+    padding: 0.6rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    #main-title
+      font-size: 2rem
+      position: absolute
+      top: 14.8rem
+      text-align: center
+
+  #sidebar
+    padding: 0.1rem 0
+    max-width: 100%
+
+    img
+      margin-top: 13%
+      max-width: 75%
+      position: relative
+    
+
+    .job-title
+      margin-top: 0
+      padding: .5rem 1.6rem
+      max-width: 95%
+
+    .resume-btn
+      @include mixins.resume-btn
+      margin-top: 2.8rem
+      margin-bottom: 0.5rem
+
+  #social-networks
+    @include mixins.center
+    position: absolute
+    top: 31.5rem    
+    gap: 1rem
+    margin: 0.5rem 0
+
+    // .social-btn
+    //   padding: .6rem
+    //   background-color: variables.$bg-color-secondary
+    //   border-radius: variables.$card-border-radius
+    //   color: #333
+    //   font-size: 1.3rem
+    //   @include mixins.center
+
+    #linkedinIcon
+      color: #0072b1
+      width: 8rem
+
+    #githubIcon
+      color: #fff
+      width: 8rem
+
+    // :hover
+    //   background: variables.$gradient
+    //   > svg
+    //       color: #111
+
+  #information-container
+    padding: 0.5rem 0.5rem 0 0.5rem
+    margin-top: 0.5rem
+    margin-bottom: 0.5rem
+    width: 90%
+
+    // .info-card
+    //   @include mixins.center
+    //   justify-content: start
+    //   gap: 1rem
+    //   padding-bottom: .8rem
+    //   margin-bottom: .8rem
+    //   border-bottom: 1px solid #444
+    //   width: 100%
+
+    // h3
+    //   color: variables.$text-color-secondary
+    //   font-size: .8rem
+    //   margin-bottom: .5rem
+
+    p
+      font-size: 0.8rem
+
+    svg  
+      // background-color: variables.$bg-color
+      padding: .3rem
+      // width: 2rem
+      // height: 2rem
+      // border-radius: variables.$card-border-radius
+
+    #phone-icon
+      color: #e93b81
+
+    #email-icon
+      color: #6ab5b9
+
+    #local-icon
+      color: #c17ceb
+
+  
+
+
+// @media screen and (min-width: 321px) and (max-width: 768px) {
+//   // Estilos para telas entre 321px e 768px
+// }
+
+// @media screen and (max-width: 768px) {
+//   /* Estilos para telas menores que 768px de largura */
+// }
+
+// @media screen and (min-width: 769px) and (max-width: 1024px) {
+//   /* Estilos para telas entre 769px e 1024px de largura */
+// }
+
+// @media screen and (min-width: 1025px) {
+//   /* Estilos para telas maiores que 1024px de largura */
+// }
+
