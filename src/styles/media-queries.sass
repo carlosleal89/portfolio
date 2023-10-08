@@ -288,13 +288,160 @@
         .tech-icon
           position: absolute
 
-// @media screen and (max-width: 768px) {
-//   /* Estilos para telas menores que 768px de largura */
-// }
+@media screen and (min-width: 769px) and (max-width: 1024px)
+   #portfolio
+    gap: 1rem
+    padding: 0.9rem
+    display: flex
 
-// @media screen and (min-width: 769px) and (max-width: 1024px) {
-//   /* Estilos para telas entre 769px e 1024px de largura */
-// }
+    #main-title
+      font-size: 3rem
+      margin-bottom: 0.8rem
+      padding-right: 2rem
+
+    #sidebar
+      padding: 0rem 0
+      max-width: 20%
+
+      img
+        margin-top: 29%
+        // margin-bottom: 0rem
+        // max-width: 65%
+        position: relative    
+
+      .job-title
+        margin-top: -2rem
+        padding: 0.5rem 1rem
+        max-width: 95%
+        font-size: 0.8rem
+
+      .resume-btn
+        @include mixins.resume-btn
+        margin-top: 0rem
+        margin-bottom: 0.5rem
+
+    #social-networks
+      @include mixins.center
+      position: absolute
+      top: 29.9rem    
+      gap: 1rem
+      margin: 0.5rem 0
+
+      #linkedinIcon
+        color: #0072b1
+        width: 4rem
+
+      #githubIcon
+        color: #fff
+        width: 4rem
+
+    #information-container
+      padding: 0.5rem 0.2rem 0 0.2rem
+      margin-top: 0.5rem
+      margin-bottom: 0.5rem
+      width: 95%
+
+      // .info-card    
+      
+      h3
+        font-size: 0.6rem
+
+      p
+        font-size: 0.70rem
+        padding: 0
+        // margin-left: -0.9rem
+
+      svg  
+        padding: 0.2rem
+        width: 1.8rem
+
+    #main-content-container
+      width: 79%
+      // gap: 0
+      // display: flex
+      // flex-direction: column
+
+    #main-content
+      padding: 0.5rem
+      width: 95%
+
+      .about-container
+        h2
+          margin-right: -15rem
+          width: 49rem
+        p
+          font-size: 0.9rem
+
+      #projects-container
+        h2
+          width: 40rem
+        
+        p
+          font-size: 0.71rem
+
+        .projects-btn
+          position: relative
+          align-self: center
+
+    .tech-container
+      h2
+        width: 27.5rem
+
+      .tech-grid
+        justify-content: center
+        gap: 0.3rem
+
+        .tech-card
+          width: 49%
+
+          .tech-icon
+            width: 45%
+
+          .tech-info
+            justify-content: right
+
+            h3
+              font-size: 0.85rem
+              text-align: left
+
+        #Node
+          svg
+            height: 2rem
+
+        #JavaScript
+          svg
+            height: 2rem
+
+        #CSS
+          svg
+            height: 2rem
+
+        #HTML
+          svg
+            height: 2rem     
+        
+        #React
+          svg
+            height: 2rem
+
+        #MySql
+          svg
+            height: 2rem  
+
+        #Docker
+          svg
+            height: 2rem
+
+        #Express
+          svg
+            height: 2rem
+          // display: flex
+          // justify-content: center
+          // flex-direction: column        
+
+          // .tech-icon
+            // position: absolute
+
 
 // @media screen and (min-width: 1025px) {
 //   /* Estilos para telas maiores que 1024px de largura */
