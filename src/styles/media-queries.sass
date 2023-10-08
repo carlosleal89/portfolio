@@ -1,4 +1,35 @@
 @use './variables'
 @use './mixins'
 
-// @media screen (min-width: 375)
+@media screen and (min-width: 375px)
+  #portfolio
+
+    h1
+      left: 6rem
+      top: 15.5rem
+
+  #sidebar    
+
+    .job-title
+      margin: 15rem 1rem 0
+
+    .resume-btn
+      @include mixins.resume-btn-mobile
+      margin-top: -0.5rem
+
+@media screen and (min-width: 414px)
+  #portfolio
+
+    h1
+      left: 6rem
+      top: 17rem
+      font-size: 2.5rem
+
+  #sidebar    
+
+    .job-title
+      margin: 17rem 1rem 0
+
+    .resume-btn
+      @include mixins.resume-btn-mobile
+      margin-top: -0.5rem
