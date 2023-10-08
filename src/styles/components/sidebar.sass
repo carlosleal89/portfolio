@@ -3,33 +3,33 @@
 
 #sidebar
   background-color: variables.$bg-color
-  flex: 1 1 0
   border-radius: variables.$container-border-radius
   display: flex
   align-items: center
   flex-direction: column
   text-align: center
   position: relative
-  padding: 3rem 0
-  max-width: 30%
+  padding: 3rem 0rem
+  max-width: 95%
 
   img
-    margin-top: 5%
     max-width: 70%
     border-radius: variables.$container-border-radius
     position: absolute
-    top: -3rem
+    top: 0.5rem
   
 
   .job-title
     color: variables.$text-color-secondary
     background-color: variables.$bg-color-secondary
     border-radius: variables.$card-border-radius
-    margin-top: 12rem
-    padding: .8rem 1.2rem
+    margin: 13rem 1rem 0
+    padding: .8rem 1.5rem
+    width: 95%
 
   .resume-btn
-    @include mixins.resume-btn
+    @include mixins.resume-btn-mobile
+    margin-top: -0.5rem
   
 
   
