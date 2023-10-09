@@ -1,39 +1,45 @@
 @use '../variables'
 @use '../mixins'
 
-.tech-container
+.tech-container  
   margin-bottom: 1rem
+  h2
+    width: 16rem
 
   .tech-grid
     display: flex
+    justify-content: center
     flex-wrap: wrap
-    gap: 1.5rem
+    gap: 0.3rem
 
     .tech-card
       @include mixins.center
       display: flex
       justify-content: space-between
       gap: 1rem
-      padding: 0.5rem
+      padding: 0.5rem 0.1rem
       border: 1px solid #333
-      width: 45%
+      width: 49%
       border-radius: variables.$card-border-radius
 
       .tech-icon
-        width: 50%
+        width: 30%
         display: flex
-        justify-content: center
+        justify-content: left
 
       .tech-info
-        width: 50%
+        width: 40%
         display: flex
-        justify-content: center
+        justify-content: right
 
       h3
         color: variables.$font-color
+        font-size: 1rem
+        padding-right: 0.1rem
 
       svg
-        font-size: 3rem
+        font-size: 2.5rem
+        height: 2rem
 
     #HTML
         svg
@@ -64,3 +70,12 @@
             color: #1572B6
             background: #fff
             border-radius: 50px
+            width: 60%
+            margin-left: 0.3rem
+
+    #Express
+        display: flex        
+        justify-content: left
+
+        .tech-info
+          display: none

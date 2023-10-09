@@ -1,604 +1,149 @@
 @use './variables'
 @use './mixins'
 
-// @media screen and (max-width: 320px)
-  // #portfolio
-  //   gap: 1rem
-  //   padding: 0.6rem
-  //   display: flex
-  //   flex-direction: column
-  //   justify-content: center
-  //   #main-title
-  //     font-size: 2rem
-  //     position: absolute
-  //     top: 12.5rem
-  //     left: 0rem
-  //     text-align: center
+@media screen and (min-width: 375px)
 
-  // #sidebar
-  //   padding: 0.1rem 0
-  //   max-width: 100%
+  #sidebar    
 
-  //   img
-  //     margin-top: 13%
-  //     margin-bottom: -0.6rem
-  //     max-width: 65%
-  //     position: relative
-    
+  .tech-container 
 
-  //   .job-title
-  //     margin-top: 0
-  //     padding: .5rem 1.6rem
-  //     max-width: 100%
+    .tech-grid
 
-  //   .resume-btn
-  //     @include mixins.resume-btn
-  //     margin-top: 3.1rem
-  //     margin-bottom: 0.5rem
+      #Express    
+          justify-content: center
+          padding: 0
 
-  // #social-networks
-  //   @include mixins.center
-  //   position: absolute
-  //   top: 29.9rem    
-  //   gap: 1rem
-  //   margin: 0.5rem 0
+          .tech-icon            
+            position: absolute
+            right: 3.5rem
 
-  //   #linkedinIcon
-  //     color: #0072b1
-  //     width: 8rem
+@media screen and (min-width: 414px)
+  .tech-container 
 
-  //   #githubIcon
-  //     color: #fff
-  //     width: 8rem
+    .tech-grid
 
-  // #information-container
-  //   padding: 0.5rem 0.5rem 0 0.5rem
-  //   margin-top: 0.5rem
-  //   margin-bottom: 0.5rem
-  //   width: 95%
+      #Express    
+          justify-content: center
+          padding: 0
 
-  //   p
-  //     font-size: 1rem
+          .tech-icon            
+            position: absolute
 
-  //   svg  
-  //     padding: .3rem
+          .tech-info
+            display: none
 
-  // #main-content-container
-  //   width: 100%
-  //   display: flex
-  //   flex-direction: column
-
-  // #main-content
-  //   padding: 1rem
-  //   width: 100%
-
-  //   .about-container
-  //     h2
-  //       margin-right: -15rem
-
-  //   #projects-container
-  //     h2
-  //       width: 23rem
-
-  //     .projects-btn
-  //       position: relative
-  //       align-self: center
-
-  // .tech-container
-  //   .tech-grid
-  //     justify-content: center
-  //     gap: 0.3rem
-
-  //     .tech-card
-  //       width: 48%
-
-  //       .tech-icon
-  //         width: 30%
-
-  //       .tech-info
-  //         justify-content: right
-
-  //         h3
-  //           font-size: 0.9rem
-  //           text-align: left
-
-  //     #Node
-  //       svg
-  //         height: 2rem
-
-  //     #JavaScript
-  //       svg
-  //         height: 2rem
-
-  //     #CSS
-  //       svg
-  //         height: 2rem
-
-  //     #HTML
-  //       svg
-  //         height: 2rem     
-      
-  //     #React
-  //       svg
-  //         height: 2rem
-
-  //     #MySql
-  //       svg
-  //         height: 2rem  
-
-  //     #Docker
-  //       svg
-  //         height: 2rem
-
-  //     #Express
-  //       display: flex
-  //       justify-content: center
-  //       flex-direction: column        
-
-  //       .tech-icon
-  //         position: absolute
-    
-
-@media screen and (min-width: 768px) and (max-width: 1024px) //tela ipad 768x1024
-  #root
-    display: flex
-    gap: 1rem
-    padding: 0.9rem
-  
+@media screen and (min-width: 768px)
   #portfolio
     gap: 0.2rem
     padding: 0.5rem
-    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: start
 
     #main-title
+      display: block
+      position: static
       font-size: 3rem
-      margin-bottom: 0.8rem
+      text-align: right
+      margin: 2.5rem
       padding-right: 1rem
 
   #sidebar
-    padding: 0.1rem 0
-    max-width: 30%
+
+    margin-top: 5rem
+    width: 40%
+    max-width: 40%
 
     img
-      margin-top: 29%
-      // margin-bottom: 0rem
-      // max-width: 65%
-      position: relative    
+      position: relative
+      top: -5rem
+
+    #main-title-mobile
+      display: none
 
     .job-title
-      margin-top: -2rem
-      padding: 0.5rem 1.6rem
-      max-width: 95%
-
-    .resume-btn
-      @include mixins.resume-btn
-      margin-top: 0rem
-      margin-bottom: 0.5rem
-
-  #social-networks
-    @include mixins.center
-    position: absolute
-    top: 29.9rem    
-    gap: 1rem
-    margin: 0.5rem 0
-
-    #linkedinIcon
-      color: #0072b1
-      width: 4rem
-
-    #githubIcon
-      color: #fff
-      width: 4rem
+      margin: -3rem 1rem 0
+      font-size: 1.2rem
 
   #information-container
-    padding: 0.5rem 0.2rem 0 0.2rem
-    margin-top: 0.5rem
-    margin-bottom: 0.5rem
-    width: 95%
 
-    // .info-card    
-    
+    .info-card
+
     h3
-      font-size: 0.6rem
-      margin-left: -0.6rem
+      color: variables.$text-color-secondary
+      font-size: .9rem
+      margin-bottom: .5rem
 
     p
-      font-size: 0.8rem
-      margin-left: -0.7rem
+      color: variables.$font-color
+      font-weight: bold
+      font-size: 1.1rem
 
     svg  
+      background-color: variables.$bg-color
       padding: 0.2rem
-      width: 1.8rem
+      width: 15%
+      height: 2.5rem
+      border-radius: variables.$card-border-radius
+
+    #phone-icon
+      color: #e93b81
+
+    #email-icon
+      color: #6ab5b9
+      // width: 2.7rem
+
+    #local-icon
+      color: #c17ceb
 
   #main-content-container
-    width: 70%
-    // gap: 0
-    // display: flex
-    // flex-direction: column
+    width: 60%
+    max-width: 60%
 
-  #main-content
-    padding: 0.5rem
-    margin: 2%
-    width: 100%
+    #main-content
 
-    .about-container
-      h2
-        margin-right: 0rem
-        width: 49rem
-      p
-        font-size: 0.9rem
+      width: 100%
+      max-width: 100%
 
-    #projects-container
-      h2
-        width: 40rem
-      
-      p
-        font-size: 0.9rem
 
-      .projects-btn
-        position: relative
-        align-self: center
-
-  .tech-container
-    h2
-      width: 27.5rem
+  .tech-container 
 
     .tech-grid
-      justify-content: center
-      gap: 0.3rem
 
       .tech-card
-        width: 49%
-
-        .tech-icon
-          width: 45%
+        justify-content: space-around
 
         .tech-info
-          justify-content: right
-
           h3
-            font-size: 0.85rem
-            text-align: left
+            font-size: 1.1rem
 
-      #Node
-        svg
-          height: 2rem
+      #Express    
+          justify-content: space-around
 
-      #JavaScript
-        svg
-          height: 2rem
+          .tech-icon            
+            position: static
+            width: 40%
+            display: flex
+            justify-content: left
 
-      #CSS
-        svg
-          height: 2rem
+          .tech-info
+            display: flex
+            width: 40%
+            justify-content: right
 
-      #HTML
-        svg
-          height: 2rem     
-      
-      #React
-        svg
-          height: 2rem
+@media screen and (min-width: 1024px)
+  #portfolio
+    justify-content: space-around
 
-      #MySql
-        svg
-          height: 2rem  
+  #sidebar
+    max-width: 30%
 
-      #Docker
-        svg
-          height: 2rem
+  #main-content-container
+    max-width: 70%
+    width: 70%
 
-      #Express
-        display: flex
-        justify-content: center
-        flex-direction: column        
 
-        .tech-icon
-          position: absolute
 
-// @media screen and (min-width: 769px) and (max-width: 1024px) // tela ipad 1024x768
-//    #portfolio
-//     gap: 0.2rem
-//     padding: 0.9rem
-//     display: flex
-//     flex-direction: row
-//     justify-content: space-between
 
-//     #main-title
-//       font-size: 3rem
-//       margin-bottom: 0.8rem
-//       padding-right: 2rem
-
-//     #sidebar
-//       padding: 0rem 0
-//       max-width: 20%
-
-//       img
-//         margin-top: 29%
-//         // margin-bottom: 0rem
-//         // max-width: 65%
-//         position: relative    
-
-//       .job-title
-//         margin-top: -2rem
-//         padding: 0.5rem 1rem
-//         max-width: 95%
-//         font-size: 0.8rem
-
-//       .resume-btn
-//         @include mixins.resume-btn
-//         margin-top: 0rem
-//         margin-bottom: 0.5rem
-
-//     #social-networks
-//       @include mixins.center
-//       position: absolute
-//       top: 29.9rem    
-//       gap: 1rem
-//       margin: 0.5rem 0
-
-//       #linkedinIcon
-//         color: #0072b1
-//         width: 4rem
-
-//       #githubIcon
-//         color: #fff
-//         width: 4rem
-
-//     #information-container
-//       padding: 0.5rem 0.2rem 0 0.2rem
-//       margin-top: 0.5rem
-//       margin-bottom: 0.5rem
-//       width: 95%
-
-//       // .info-card    
-      
-//       h3
-//         font-size: 0.6rem
-//         margin-left: -0.6rem
-
-//       p
-//         font-size: 0.8rem
-//         margin-left: -0.7rem
-
-//       svg  
-//         padding: 0.2rem
-//         width: 1.8rem
-
-//     #main-content-container
-//       width: 79.5%
-//       // gap: 0
-//       // display: flex
-//       // flex-direction: column
-
-//     #main-content
-//       padding: 0.5rem
-//       width: 100%
-
-//       .about-container
-//         h2
-//           margin-right: -15rem
-//           width: 49rem
-//         p
-//           font-size: 0.9rem
-
-//       #projects-container
-//         h2
-//           width: 40rem
-        
-//         p
-//           font-size: 0.9rem
-
-//         .projects-btn
-//           position: relative
-//           align-self: center
-
-//     .tech-container
-//       h2
-//         width: 27.5rem
-
-//       .tech-grid
-//         justify-content: center
-//         gap: 0.3rem
-
-//         .tech-card
-//           width: 49%
-
-//           .tech-icon
-//             width: 45%
-
-//           .tech-info
-//             justify-content: right
-
-//             h3
-//               font-size: 0.85rem
-//               text-align: left
-
-//         #Node
-//           svg
-//             height: 2rem
-
-//         #JavaScript
-//           svg
-//             height: 2rem
-
-//         #CSS
-//           svg
-//             height: 2rem
-
-//         #HTML
-//           svg
-//             height: 2rem     
-        
-//         #React
-//           svg
-//             height: 2rem
-
-//         #MySql
-//           svg
-//             height: 2rem  
-
-//         #Docker
-//           svg
-//             height: 2rem
-
-//         #Express
-//           svg
-//             height: 2rem
-//           // display: flex
-//           // justify-content: center
-//           // flex-direction: column        
-
-//           // .tech-icon
-//             // position: absolute
-
-
-// @media screen and (min-width: 1025px) and (max-width: 1439px)
-//    #portfolio
-//     gap: 1rem
-//     padding: 0.9rem
-//     display: flex
-
-//     #main-title
-//       font-size: 3rem
-//       margin-bottom: 0.8rem
-//       padding-right: 2rem
-
-//     #sidebar
-//       padding: 0rem 0
-//       max-width: 20%
-
-//       img
-//         margin-top: 29%
-//         // max-width: 65%
-//         position: relative    
-
-//       .job-title
-//         margin-top: -2rem
-//         padding: 0.5rem 1rem
-//         max-width: 95%
-//         font-size: 0.8rem
-
-//       .resume-btn
-//         @include mixins.resume-btn
-//         margin-top: 0rem
-//         margin-bottom: 0.5rem
-        
-
-//     #social-networks
-//       @include mixins.center
-//       position: absolute
-//       top: 29.9rem    
-//       gap: 1rem
-//       margin: 0.5rem 0
-
-//       #linkedinIcon
-//         color: #0072b1
-//         width: 4rem
-
-//       #githubIcon
-//         color: #fff
-//         width: 4rem
-
-//     #information-container
-//       padding: 0.5rem 0.2rem 0 0.2rem
-//       margin-top: 0.5rem
-//       margin-bottom: 0.5rem
-//       width: 95%
-
-//       // .info-card    
-      
-//       h3
-//         font-size: 0.6rem
-
-//       p
-//         font-size: 0.70rem
-//         padding: 0
-//         // margin-left: -0.9rem
-
-//       svg  
-//         padding: 0.2rem
-//         width: 1.8rem
-
-//     #main-content-container
-//       width: 79%
-//       // gap: 0
-//       // display: flex
-//       // flex-direction: column
-
-//     #main-content
-//       padding: 0.5rem
-//       width: 95%
-
-//       .about-container
-//         h2
-//           margin-right: -15rem
-//           width: 49rem
-//         p
-//           font-size: 0.9rem
-
-//       #projects-container
-//         h2
-//           width: 40rem
-        
-//         p
-//           font-size: 0.71rem
-
-//         .projects-btn
-//           position: relative
-//           align-self: center
-
-//     .tech-container
-//       h2
-//         width: 27.5rem
-
-//       .tech-grid
-//         justify-content: center
-//         gap: 0.3rem
-
-//         .tech-card
-//           width: 49%
-
-//           .tech-icon
-//             width: 45%
-
-//           .tech-info
-//             justify-content: right
-
-//             h3
-//               font-size: 0.85rem
-//               text-align: left
-
-//         #Node
-//           svg
-//             height: 2rem
-
-//         #JavaScript
-//           svg
-//             height: 2rem
-
-//         #CSS
-//           svg
-//             height: 2rem
-
-//         #HTML
-//           svg
-//             height: 2rem     
-        
-//         #React
-//           svg
-//             height: 2rem
-
-//         #MySql
-//           svg
-//             height: 2rem  
-
-//         #Docker
-//           svg
-//             height: 2rem
-
-//         #Express
-//           svg
-//             height: 2rem
-
-
+         
+            

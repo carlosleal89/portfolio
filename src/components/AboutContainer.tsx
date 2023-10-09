@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/components/aboutcontainer.sass';
+// import '../styles/components/aboutcontainer.sass';
 
 const AboutContainer: React.FC = () => {
   return (

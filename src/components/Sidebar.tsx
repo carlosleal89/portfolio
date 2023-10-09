@@ -9,6 +9,7 @@ const Sidebar: React.FC = () => {
   return (
     <aside id='sidebar'>
       <img src={ Selfie } alt="Carlos Leal - profile picture" />
+      <h2 id='main-title-mobile'>Carlos Leal</h2>
       <p className='job-title'>Desenvolvedor Web Full Stack</p>
       <SocialNetworks />
       <InformationContainer />
