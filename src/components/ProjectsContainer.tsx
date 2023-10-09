@@ -1,6 +1,8 @@
 import React from 'react';
 
-const ProjectsContainer: React.FC = () => {
+import { IShowProjects } from '../interfaces/IProject';
+
+const ProjectsContainer: React.FC<IShowProjects> = ({ showProjects, setShowProjects }) => {  
   return (
     <section id='projects-container'>
       <h2>Projetos</h2>
@@ -11,9 +13,12 @@ const ProjectsContainer: React.FC = () => {
       Sequelize como ORM e MySQL como banco de dados.
       Adoto uma arquitetura de camadas MSC, focando em testes unitários e de integração para garantir a qualidade do código.
       </p>
-      <a href='https://github.com/carlosleal89' className='projects-btn' target='_blank'>
+      {/* <a href='https://github.com/carlosleal89' className='projects-btn' target='_blank'>
         Ver Projetos
-      </a>
+      </a> */}
+      <button className='projects-btn' onClick={ () => setShowProjects(!showProjects) }>
+        Ver Projetos
+      </button>
     </section>
   )
 }

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "GetRhythm",
+    "img": "../images/getRhythm.png",
+    "url": "https://music-tunes-puce.vercel.app/",
+    "description": "Projeto desenvolvido em React, consumindo a api do Itunes."
+  },
+  {
+    "name": "Solar System",
+    "img": "../images/solar-system.png",
+    "url": "https://projeto-sistema-solar-three.vercel.app//",
+    "description": "Projeto desenvolvido em React."
+  }
+]
