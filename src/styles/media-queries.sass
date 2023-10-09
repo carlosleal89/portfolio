@@ -2,21 +2,8 @@
 @use './mixins'
 
 @media screen and (min-width: 375px)
-  #portfolio
-
-    h1
-      left: 5rem
-      top: 15.2rem
-      font-size: 2.4rem
 
   #sidebar    
-
-    .job-title
-      margin: 15rem 1rem 0
-
-    .resume-btn
-      @include mixins.resume-btn-mobile
-      margin-top: -0.5rem
 
   .tech-container 
 
@@ -31,22 +18,6 @@
             right: 3.5rem
 
 @media screen and (min-width: 414px)
-  #portfolio
-
-    h1
-      left: 6rem
-      top: 17rem
-      font-size: 2.5rem
-
-  #sidebar    
-
-    .job-title
-      margin: 17rem 1rem 0
-
-    .resume-btn
-      @include mixins.resume-btn-mobile
-      margin-top: -0.5rem
-
   .tech-container 
 
     .tech-grid
@@ -70,20 +41,27 @@
     align-items: start
 
     #main-title
+      display: block
       position: static
       font-size: 3rem
       text-align: right
-      margin-bottom: 0.8rem
+      margin: 2.5rem
       padding-right: 1rem
-  #sidebar    
+
+  #sidebar
+
+    margin-top: 5rem
+
+    img
+      position: relative
+      top: -5rem
+
+    #main-title-mobile
+      display: none
 
     .job-title
-      margin: 10rem 1rem 0
+      margin: -3rem 1rem 0
       font-size: 1.2rem
-
-    .resume-btn
-      @include mixins.resume-btn-mobile
-      margin-top: -0.5rem
 
   .tech-container 
 
