@@ -5,8 +5,9 @@
   #portfolio
 
     h1
-      left: 6rem
-      top: 15.5rem
+      left: 5rem
+      top: 15.2rem
+      font-size: 2.4rem
 
   #sidebar    
 
@@ -16,6 +17,18 @@
     .resume-btn
       @include mixins.resume-btn-mobile
       margin-top: -0.5rem
+
+  .tech-container 
+
+    .tech-grid
+
+      #Express    
+          justify-content: center
+          padding: 0
+
+          .tech-icon            
+            position: absolute
+            right: 3.5rem
 
 @media screen and (min-width: 414px)
   #portfolio
@@ -33,3 +46,69 @@
     .resume-btn
       @include mixins.resume-btn-mobile
       margin-top: -0.5rem
+
+  .tech-container 
+
+    .tech-grid
+
+      #Express    
+          justify-content: center
+          padding: 0
+
+          .tech-icon            
+            position: absolute
+
+          .tech-info
+            display: none
+
+@media screen and (min-width: 768px)
+  #portfolio
+    gap: 0.2rem
+    padding: 0.5rem
+    flex-direction: row
+    justify-content: center
+    align-items: start
+
+    #main-title
+      position: static
+      font-size: 3rem
+      text-align: right
+      margin-bottom: 0.8rem
+      padding-right: 1rem
+  #sidebar    
+
+    .job-title
+      margin: 10rem 1rem 0
+      font-size: 1.2rem
+
+    .resume-btn
+      @include mixins.resume-btn-mobile
+      margin-top: -0.5rem
+
+  .tech-container 
+
+    .tech-grid
+
+      .tech-card
+        justify-content: space-around
+
+        .tech-info
+          h3
+            font-size: 1.3rem
+
+      #Express    
+          justify-content: space-around
+
+          .tech-icon            
+            position: static
+            width: 40%
+            display: flex
+            justify-content: left
+
+          .tech-info
+            display: flex
+            width: 40%
+            justify-content: right
+
+         
+            
