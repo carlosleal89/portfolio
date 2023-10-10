@@ -13,7 +13,7 @@
   },
   {
     "name": "Star Wars Data Search",
-    "img": "../images/swdata.png",
+    "img": "src/images/swdata.png",
     "url": "https://starwars-data-search.vercel.app/",
     "description": "Projeto desenvolvido em React com intuido de demonstrar o uso de filtro em uma lista."
   },
