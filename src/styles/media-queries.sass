@@ -67,8 +67,6 @@
 
   #information-container
 
-    .info-card
-
     h3
       color: variables.$text-color-secondary
       font-size: .9rem
@@ -91,7 +89,6 @@
 
     #email-icon
       color: #6ab5b9
-      // width: 2.7rem
 
     #local-icon
       color: #c17ceb
@@ -105,7 +102,6 @@
       width: 100%
       max-width: 100%
 
-
   .tech-container 
 
     .tech-grid
@@ -115,14 +111,14 @@
 
         .tech-info
           h3
-            font-size: 1.1rem
+            font-size: 1.1rem      
 
       #Express    
           justify-content: space-around
 
           .tech-icon            
             position: static
-            width: 40%
+            width: 45%
             display: flex
             justify-content: left
 
@@ -130,6 +126,21 @@
             display: flex
             width: 40%
             justify-content: right
+
+  .projects-grid-conteiner
+
+    .projects-grid
+      flex-direction: row
+      justify-content: space-around
+
+      .project-card
+        width: 49%
+        align-items: flex-start
+        min-height: 18rem
+        padding: 0rem 1rem
+
+      #project-name
+        margin-top: 1rem
 
 @media screen and (min-width: 1024px)
   #portfolio
@@ -141,6 +152,24 @@
   #main-content-container
     max-width: 70%
     width: 70%
+
+    #Docker
+        svg
+            width: 30%
+
+  .projects-grid-conteiner
+
+    .projects-grid
+
+      .project-card
+        min-height: 22rem
+
+      #project-name
+        font-size: 2rem
+
+      #project-description
+        font-size: 1.5rem
+  
 
 
 

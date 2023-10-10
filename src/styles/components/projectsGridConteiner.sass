@@ -1,0 +1,40 @@
+@use '../variables'
+@use '../mixins'
+
+.projects-grid-conteiner  
+  margin-bottom: 1rem
+  display: flex
+  flex-direction: column 
+
+  .projects-grid
+    display: flex
+    flex-direction: column
+    align-items: center
+    flex-wrap: wrap
+    gap: 0.3rem
+
+    .project-card
+      display: flex
+      flex-direction: column      
+      align-items: center
+      padding: 0.5rem 0.1rem
+      border: 1px solid #333
+      width: 95%
+      border-radius: variables.$card-border-radius
+      text-align: center
+
+      #project-name
+        color: variables.$font-color
+      
+      img
+        width: 95%
+        margin: 1rem 0
+
+      a
+        text-decoration: none  
+  
+  .return-btn
+    @include mixins.resume-btn
+    align-self: center
+    margin: 1rem
+    
