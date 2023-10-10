@@ -1,13 +1,13 @@
 [
   {
     "name": "GetRhythm",
-    "img": "../images/getRhythm.png",
+    "img": "./images/getRhythm.png",
     "url": "https://music-tunes-puce.vercel.app/",
     "description": "Projeto desenvolvido em React, consumindo a api do Itunes."
   },
   {
     "name": "I'm Hungry App",
-    "img": "../images/hungry.png",
+    "img": "./images/hungry.png",
     "url": "https://imhungryapp.vercel.app/",
     "description": "Projeto desenvolvido em grupo utilizando React e metodologias ágeis."
   },
