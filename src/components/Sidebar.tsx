@@ -13,10 +13,8 @@ const Sidebar: React.FC = () => {
       <p className='job-title'>Desenvolvedor Web Full Stack</p>
       <SocialNetworks />
       <InformationContainer />
-      <a href='' className='resume-btn'>
-      {/* <a href="caminho/para/seu/curriculo.pdf" download="seu_curriculo.pdf">
-      <button>Baixar Currículo</button>
-      </a> */}
+      <a href="/curriculoCarlosLeal.pdf" download="curriculoCarlosLeal.pdf" className='resume-btn'>
+
         Download Currículo
       </a>
     </aside>
