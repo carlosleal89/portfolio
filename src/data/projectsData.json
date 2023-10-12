@@ -2,7 +2,7 @@
   {
     "name": "GetRhythm",
     "img": "/getRhythm.png",
-    "url": "https://music-tunes-puce.vercel.app/",
+    "url": "https://getrhythm.vercel.app/",
     "description": "Projeto desenvolvido em React, consumindo a api do Itunes."
   },
   {
