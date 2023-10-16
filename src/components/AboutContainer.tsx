@@ -8,7 +8,7 @@ const AboutContainer: React.FC = () => {
       <p>
       Hi there. I'm Carlos! 👋
       <br />
-      Atualmente estou em processo de transição de carreira. Sou desenvolver Web full stack formado pela Trybe.
+      Atualmente estou em processo de transição de carreira. Sou desenvolvedor Web full stack formado pela Trybe.
       Durante meu processo de formação, desenvolvi projetos individuais e em grupo usando tecnologias como
       JavaScript, React, Node.js, Docker, SQL, TypeScript, Express e Sequelize. Na seção de projetos você encontra alguns trabalhos
       onde posso mostrar um pouco dos meus conhecimentos.
