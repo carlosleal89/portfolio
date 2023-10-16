@@ -8,10 +8,10 @@ const ProjectCard: React.FC<IProjectCardProps> = ({ projectData }) => {
   const { name, img, description, url }: IProject = projectData;
   return (
           <div className='project-card'>
-            <a href={ url } id='project-url' target="_blank">
-            <h3 id='project-name'> { name }</h3>
-            <img src={ img } id='project-img' alt='preview project image' />            
-            <p id='project-description'>{ description }</p>
+            <a href={ url } className='project-url' target="_blank">
+            <h3 className='project-name'> { name }</h3>
+            <img src={ img } className='project-img' alt='preview project image' />            
+            <p className='project-description'>{ description }</p>
             </a>
           </div>
           )

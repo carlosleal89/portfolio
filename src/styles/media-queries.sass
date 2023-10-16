@@ -112,11 +112,9 @@
 
       .project-card
         width: 49%
-        align-items: flex-start
-        min-height: 18rem
-        padding: 0rem 1rem
+        padding: 0
 
-      #project-name
+      .project-name
         margin-top: 1rem
 
 @media screen and (min-width: 1024px)
@@ -150,14 +148,26 @@
     .projects-grid
 
       .project-card
-        min-height: 22rem
 
-      #project-name
-        font-size: 2rem
+        .project-name
+          font-size: 1.8rem
+
+        img
+          width: 90%  
   
 @media screen and (min-width: 1280px)
   #sidebar
     max-width: 25%
+
+  .projects-grid-conteiner
+
+    .projects-grid
+
+      .project-card
+        padding: 1rem 2rem
+
+        .project-name
+          font-size: 1.5rem
 
 @media screen and (min-width: 1440px)
   #sidebar
@@ -195,6 +205,20 @@
       p
         font-size: 1.3rem
 
+  .projects-grid-conteiner
+
+    .projects-grid
+
+      .project-card
+
+        .project-name
+          font-size: 1.8rem
+          margin-top: 0
+
+        img
+          // height: %
+          width: 70% 
+
 @media screen and (min-width: 1920px)
 
   #sidebar
@@ -205,11 +229,12 @@
 
     #information-container
       svg 
-        width: 10%
-        height: 10%
+        width: 12%
+        height: 12%
+        padding: 5px
 
       p
-        font-size: 1.3rem
+        font-size: 1.2rem
 
 
 
