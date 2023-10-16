@@ -1,36 +1,33 @@
 @use './variables'
 @use './mixins'
 
-// @media screen and (min-width: 375px)
+@media screen and (min-width: 375px)
 
-//   #sidebar    
+  #sidebar    
 
-//   .tech-container 
+  .tech-container 
 
-//     .tech-grid
+    .tech-grid
 
-//       #Express    
-//           justify-content: center
-//           padding: 0
+      #Docker
+        svg
+            width: 35px
+            height: 35px
 
-//           .tech-icon            
-//             position: absolute
-//             right: 3.5rem
+@media screen and (min-width: 414px)
+  // .tech-container 
 
-// @media screen and (min-width: 414px)
-//   .tech-container 
+  //   .tech-grid
 
-//     .tech-grid
+  //     #Express    
+  //         justify-content: center
+  //         padding: 0
 
-//       #Express    
-//           justify-content: center
-//           padding: 0
+  //         .tech-icon            
+  //           position: absolute
 
-//           .tech-icon            
-//             position: absolute
-
-//           .tech-info
-//             display: none
+  //         .tech-info
+  //           display: none
 
 @media screen and (min-width: 768px)
   #portfolio
@@ -108,25 +105,28 @@
     .tech-grid
 
       .tech-card
-        // justify-content: space-around
+        justify-content: center
 
         .tech-info
+          justify-content: center 
+
           h3
-            font-size: 1.1rem      
+            font-size: 1.1rem
+                
 
       #Express    
-          justify-content: space-around
+          // justify-content: space-around
 
-          .tech-icon            
-            position: static
-            width: 45%
-            display: flex
-            justify-content: left
+          // .tech-icon            
+          //   position: static
+          //   width: 45%
+          //   display: flex
+          //   justify-content: left
 
-          .tech-info
-            display: flex
-            width: 40%
-            justify-content: right
+          // .tech-info
+          //   display: flex
+          //   width: 40%
+          //   justify-content: right
 
   .projects-grid-conteiner
 

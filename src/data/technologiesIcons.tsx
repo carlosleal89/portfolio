@@ -7,7 +7,10 @@ import {
   DiReact,
   DiDocker
 } from 'react-icons/di';
-import ExpressIcon from '../components/ExpressIcon';
+import {
+  SiExpress
+} from 'react-icons/si';
+// import ExpressIcon from '../components/ExpressIcon';
 import IIcons from '../interfaces/IIcon';
 
 const technologiesIcons: IIcons[] = [
@@ -18,7 +21,7 @@ const technologiesIcons: IIcons[] = [
   { name: 'MySql', icon: <DiMysql />},
   { name: 'React', icon: <DiReact />},
   { name: 'Docker', icon: <DiDocker />},
-  { name: 'Express', icon: <ExpressIcon />},
+  { name: 'Express', icon: <SiExpress />},
 ];
 
 export default technologiesIcons;
