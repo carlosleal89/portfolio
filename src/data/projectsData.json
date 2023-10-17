@@ -3,24 +3,24 @@
     "name": "GetRhythm",
     "img": "/getRhythm.png",
     "url": "https://getrhythm.vercel.app/",
-    "description": "Projeto desenvolvido em React, consumindo a api do Itunes."
+    "description": "Busque, ouça e favorite suas músicas. Projeto desenvolvido em React, consumindo a api do Itunes."
   },
   {
     "name": "I'm Hungry App",
     "img": "/hungry.png",
     "url": "https://imhungryapp.vercel.app/",
-    "description": "Projeto desenvolvido em grupo utilizando React e metodologias ágeis."
+    "description": "Procure e faça suas receitas favoritas. Projeto desenvolvido em grupo utilizando React e metodologias ágeis."
   },
   {
     "name": "Star Wars Data Search",
     "img": "/swdata.png",
     "url": "https://starwars-data-search.vercel.app/",
-    "description": "Projeto desenvolvido em React com intuido de demonstrar o uso de filtro em uma lista."
+    "description": "Que a força esteja com você. Projeto desenvolvido em React com intuido de demonstrar o uso de filtros em uma lista de planetas de Star Wars."
   },
   {
     "name": "Shopping Cart",
     "img": "/shoppingcart.png",
     "url": "https://shoppingcart-app.vercel.app/",
-    "description": "Projeto de um carrinho de compras desenvolvido em React."
+    "description": "Procure seus produtos, adicione no carrinho e veja o valor total. Desenvolvido em HTML, CSS e Javascript."
   }
 ]
