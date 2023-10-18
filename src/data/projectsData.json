@@ -14,7 +14,7 @@
   {
     "name": "Star Wars Data Search",
     "img": "/swdata.png",
-    "url": "https://starwars-data-search.vercel.app/",
+    "url": "https://starwars-planet-data.vercel.app/",
     "description": "Que a força esteja com você. Projeto desenvolvido em React com intuito de demonstrar o uso de filtros em uma lista de planetas de Star Wars."
   },
   {
