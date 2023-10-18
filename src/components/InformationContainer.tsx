@@ -2,7 +2,7 @@ import React from 'react'
 import contactIcons from '../data/contactIcons.tsx';
 import IIcon from '../interfaces/IIcon.ts';
 
-import '../styles/components/informationcontainer.sass'
+import '../styles/components/informationcontainer.sass';
 
 const InformationContainer: React.FC = () => {
   return (
@@ -24,4 +24,4 @@ const InformationContainer: React.FC = () => {
   )
 }
 
-export default InformationContainer
+export default InformationContainer;
