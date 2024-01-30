@@ -9,9 +9,11 @@ const ProjectsContainer: React.FC<IShowProjects> = ({ showProjects, setShowProje
       <p>
       No desenvolvimento front-end, utilizo Redux e Context API para gerenciar estados no React,
       além de explorar ciclos de vida de componentes, hooks e técnicas para evitar prop drilling.
-      Nos projetos back-end, desenvolvo APIs com TypeScript no formato REST usando Express para manipulação de rotas,
-      Sequelize como ORM e MySQL como banco de dados.
-      Adoto uma arquitetura de camadas MSC, focando em testes unitários e de integração para garantir a qualidade do código.
+      No desenvolvimento back-end, desenvolvo APIs REST com Node e Python. Nos projetos com Node, 
+      utilizo Express para manipulação de rotas e Sequelize como ORM. Adoto uma arquitetura de camadas MSC,
+      focando em testes unitários e de integração para garantir a qualidade do código.
+      Já nos projetos com Python, utilizo Flask ou Django para aplicações server-side rendering e Django Rest Framework. 
+      Também adoto uma arquitetura MVC e utilizo MySQL ou MongoDB como banco de dados, dependendo da aplicação.
       </p>
       <button className='projects-btn' onClick={ () => setShowProjects(!showProjects) }>
         Ver Projetos

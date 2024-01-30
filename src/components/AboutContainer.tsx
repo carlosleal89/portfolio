@@ -8,14 +8,17 @@ const AboutContainer: React.FC = () => {
       <p>
       Hi there. I'm Carlos! 👋
       <br />
-      Atualmente estou em processo de transição de carreira. Sou desenvolvedor Web full stack formado pela Trybe.
+      Sou Desenvolvedor Web Full Stack formado pela Trybe.
       Durante meu processo de formação, desenvolvi projetos individuais e em grupo usando tecnologias como
-      JavaScript, React, Node.js, Docker, SQL, TypeScript, Express e Sequelize. Na seção de projetos você encontra alguns trabalhos
-      onde posso mostrar um pouco dos meus conhecimentos.
+      JavaScript, React, Redux, Node.js, TypeScript, Express, Sequelize, Python, Flask, Django, SQL, MongoDB,
+      Docker e Git. Na seção de projetos você encontra alguns trabalhos onde posso mostrar um pouco dos meus
+      conhecimentos.
       <br />
-      Já trabalhei na área de tecnologia, o que me proporcionou uma base sólida para a transição de carreira.
-      Minha experiência mais recente foi como barbeiro, durante os últimos 6 anos. Nesse período pude desenvolver
-      habilidades valiosas, como comunicação, gerenciamento de tempo, trabalho em equipe e liderança. 
+      Além das hard skills, também prezo pelo desenvolvimento de soft skills como colaboração, pensamento
+      crítico, trabalho em equipe, comunicação e escuta ativa. 
+      <br />
+      Já trabalhei na área de tecnologia, como técnico em informática, onde tive a oportunidade de coordenar uma
+      equipe de TI que realizava atendimentos ao cliente.
       </p>
     </section>
   )

@@ -22,5 +22,11 @@
     "img": "/shoppingcart.png",
     "url": "https://shoppingcart-app.vercel.app/",
     "description": "Procure seus produtos, adicione no carrinho e veja o valor total. Desenvolvido em HTML, CSS e Javascript."
+  },
+  {
+    "name": "Traduzo",
+    "img": "/traduzo.png",
+    "url": "https://github.com/carlosleal89/flask_poo_mvc",
+    "description": "Ferramenta de tradução entre idiomas. Desenvolvido com Python, Flask e MongoDB."
   }
 ]

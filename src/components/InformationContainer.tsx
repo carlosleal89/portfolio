@@ -9,15 +9,13 @@ const InformationContainer: React.FC = () => {
     <section id='information-container'>
       {
         contactIcons.map((iconEl: IIcon) => (
-          <>
             <div className='info-card' key={ iconEl.name }>
                 {iconEl.icon}
-              <div>
+              <div  >
                 <h3>{iconEl.name}</h3>
                 <p>{iconEl.data}</p>
               </div>
             </div>
-          </>  
         ))
       }
     </section>
